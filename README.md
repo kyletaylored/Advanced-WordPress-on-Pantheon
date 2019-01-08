@@ -49,7 +49,7 @@ deployment workflow on Pantheon integrating tools such as:
 The old version of this example used CircleCI 1.0 and did a lot of steps that the [Terminus build tools plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin/) now does manually. This has been deprecated in favor of an example based on CircleCI 2.0 and [Example WordPress Composer](https://github.com/pantheon-systems/example-wordpress-composer/). The [circle-ci-1](https://github.com/ataylorme/Advanced-WordPress-on-Pantheon/tree/circle-ci-1) branch has this version archived for reference only.
 
 ## CircleCI Setup
-You will need to add the following environment variables in the CircleCI UI. See [https://circleci.com/docs/2.0/environment-variables](https://circleci.com/docs/2.0/environment-variables/)/ for details.
+You will need to add the following environment variables in the CircleCI UI. See [https://circleci.com/docs/2.0/env-vars]/ for details.
 
 * `TERMINUS_SITE`:  Name of the Pantheon site to run tests on, e.g. my_site
 * `TERMINUS_TOKEN`: The Pantheon machine token
